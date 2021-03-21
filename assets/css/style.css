@@ -2,9 +2,9 @@
 
 body {
     font-family: "Cormorant Garamond", san-serif;
-    background-image: url('');
-    background-repeat: no-repeat;
+    background-image: url('../images/augustine-wong-li0iC0rjvvg-unsplash.jpg');
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     background-color: #DEE7E7;
     color: #4F646F;   
@@ -17,7 +17,7 @@ body {
 /* -------------------------------------------------------- Headers */
 
 h1 {
-    color:#fafafa;
+    color:#535657;
     font-weight: 900;
     text-align: center;
     text-transform: uppercase;
@@ -44,15 +44,9 @@ h2::after {
     background-color: #4F646F;
 }
 
-.navbar-toggler-icon {
-    color: black;
+.navbar-light .navbar-nav .nav-link {
+    color:#fafafa;
 }
-
-.navbar-brand .nav-item .navbar-toggler-icon {
-    color: rgb(255 255 255 / 90%);
-}
-
-
 
 /* -------------------------------------------------------- Hero section */
 
@@ -67,7 +61,7 @@ h2::after {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    border: 1px solid #fafafa;
+    border: 1px solid #4F646F;
     background-color: rgb(236, 234, 226);
     margin: 0 auto;
     padding: 0;
@@ -109,26 +103,27 @@ h2::after {
 .btn-primary:hover {
     background-color: #fafafa;
     color: #4F646F;
+    border: 1px solid #4F646F;
 }
 
 /* -------------------------------------------------------- Testimonials */
 
 .profile {
-    background-color: #535657;
+    background-color: #4F646F;
     color: #fafafa ;
     border-radius: 25px;
     padding-top: 4px;
 }
 
 .profile:hover {
-    background-color: #535657;
-    color: #fafafa;
-    border: 1px solid whitesmoke;
+    background-color: #fafafa;
+    color: #535657;
+    border: 1px solid #4F646F;
 }
 
 .profile img {
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
     border: 1px solid white;
     border-radius: 50%;
 }
