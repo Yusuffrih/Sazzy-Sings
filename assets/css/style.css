@@ -2,17 +2,23 @@
 
 body {
     font-family: "Cormorant Garamond", san-serif;
-    margin: 0 auto;   
-    background-color: rgba(140, 0, 50, 0.5);
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #DEE7E7;
+    color: #4F646F;   
+    margin: 0 auto;
     text-align: center;
     font-weight: 600;
 }
 
+
 /* -------------------------------------------------------- Headers */
 
 h1 {
-    color:white;
-    font-weight: 800;
+    color:#fafafa;
+    font-weight: 900;
     text-align: center;
     text-transform: uppercase;
 }
@@ -35,7 +41,7 @@ h2::after {
 /* -------------------------------------------------------- Navbar */
 
 .bg-navbar-color {
-    background-color: rgb(231, 202, 231) ;
+    background-color: #4F646F;
 }
 
 .navbar-toggler-icon {
@@ -95,27 +101,29 @@ h2::after {
 }
 
 .btn-primary {
-    color: black;
-    background-color: rgb(231, 202, 231);
+    color: #fafafa;
+    background-color: #4F646F;
     border: #fafafa;    
 }
 
 .btn-primary:hover {
-    background-color: black;
+    background-color: #fafafa;
+    color: #4F646F;
 }
 
 /* -------------------------------------------------------- Testimonials */
 
 .profile {
-    background-color: rgb(231, 202, 231);
+    background-color: #535657;
+    color: #fafafa ;
     border-radius: 25px;
     padding-top: 4px;
 }
 
 .profile:hover {
-    background-color: rgba(231, 226, 229, 0.199);
+    background-color: #535657;
     color: #fafafa;
-    border: 1px solid white;
+    border: 1px solid whitesmoke;
 }
 
 .profile img {
@@ -132,6 +140,9 @@ h2::after {
 
 /* -------------------------------------------------------- Footer */
 
+footer {
+background-color: #4F646F;
+}
 
 .social-media {
     list-style: none;
@@ -148,7 +159,7 @@ h2::after {
 }
 
 .social-media li a {
-    color: black;
+    color: #F4FAFF;
 }
 
 .contact {
@@ -166,6 +177,6 @@ h2::after {
 }
 
 .contact li a {
-    color: black;
+    color: #F4FAFF;
 }
 
