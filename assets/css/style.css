@@ -7,7 +7,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #DEE7E7;
-    color: #4F646F;   
+    color: #4F646F;
     margin: 0 auto;
     text-align: center;
     font-weight: 600;
@@ -96,7 +96,7 @@ h2::after {
 .iframe-container {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; 
+  padding-bottom: 56.25%;
   height: 0;
   margin-top: 4px;
 }
@@ -117,7 +117,7 @@ h2::after {
 .btn-primary {
     color: #f4faff;
     background-color: #4F646F;
-    border: #f4faff;    
+    border: #f4faff;
 }
 
 .btn-primary:hover {
@@ -160,7 +160,8 @@ blockquote i {
 /* -------------------------------------------------------- Footer */
 
 footer {
-background-color: #4F646F;
+    background-color: #4F646F;
+    margin-top: 20px;
 }
 
 .social-media {
@@ -199,3 +200,18 @@ background-color: #4F646F;
     color: #F4FAFF;
 }
 
+
+/* --------------------------------------------------------------------Songs Page */
+
+/* --------------------------------------------------------------------Listen section */
+
+.songs {
+    text-align: left;
+    border: #535657;
+    height: 80%;
+    width: 100%;    
+}
+
+.song ul {
+    list-style: none;
+}
