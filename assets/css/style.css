@@ -2,7 +2,7 @@
 
 body {
     font-family: "Cormorant Garamond", san-serif;
-    background-image: url('../images/augustine-wong-li0iC0rjvvg-unsplash.jpg');
+    background-image: url('../images/home/augustine-wong-li0iC0rjvvg-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,6 +21,12 @@ h1 {
     font-weight: 900;
     text-align: center;
     text-transform: uppercase;
+}
+
+@media (max-width: 501px) {
+    h1, h2 {
+        font-size: 175%;
+    }
 }
 
 h2 {
@@ -45,7 +51,21 @@ h2::after {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color:#fafafa;
+    color:#f4faff;
+}
+
+.navbar-light .navbar-brand {
+    color: #f4faff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #dee7e7;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: #f4faff;
+    color: #535657;
+    border-color: #535657;
 }
 
 /* -------------------------------------------------------- Hero section */
@@ -56,7 +76,7 @@ h2::after {
 }
 
 .hero {
-    background-image: url('../images/SGM.jpg');
+    background-image: url('../images/home/SGM.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,18 +110,18 @@ h2::after {
 }
 
 .iframe-container:hover {
-    border: 1px solid white;
+    border: 1px solid #f4faff;
     border-radius: 25px;
 }
 
 .btn-primary {
-    color: #fafafa;
+    color: #f4faff;
     background-color: #4F646F;
-    border: #fafafa;    
+    border: #f4faff;    
 }
 
 .btn-primary:hover {
-    background-color: #fafafa;
+    background-color: #f4faff;
     color: #4F646F;
     border: 1px solid #4F646F;
 }
@@ -110,13 +130,13 @@ h2::after {
 
 .profile {
     background-color: #4F646F;
-    color: #fafafa ;
+    color: #f4faff ;
     border-radius: 25px;
     padding-top: 4px;
 }
 
 .profile:hover {
-    background-color: #fafafa;
+    background-color: #f4faff;
     color: #535657;
     border: 1px solid #4F646F;
 }
@@ -124,12 +144,16 @@ h2::after {
 .profile img {
     width: 160px;
     height: 160px;
-    border: 1px solid white;
+    border: 1px solid #f4faff;
     border-radius: 50%;
 }
 
 .profile blockquote {
     font-size: 1.25rem;
+    padding-left: 4px;
+}
+
+blockquote i {
     padding: 4px;
 }
 
