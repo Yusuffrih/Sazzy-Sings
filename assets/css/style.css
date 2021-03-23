@@ -203,7 +203,7 @@ footer {
 
 /* --------------------------------------------------------------------Songs Page */
 
-/* --------------------------------------------------------------------Listen section */
+/* -----------------------------------------------------------Listen section */
 
 .songs {
     text-align: left;
@@ -212,6 +212,36 @@ footer {
     width: 100%;    
 }
 
-.song ul {
+.songs li{
     list-style: none;
+}
+
+
+/* -----------------------------------------------------------MP3 Files */
+ 
+.songs ul {
+    padding-left: 0;
+}
+
+.songs li {
+    margin-top: 15px;
+}
+
+.audio-controls {
+    position: relative;
+    left: 20px;
+
+}
+
+.audio-controls:hover {
+    border: 1px solid #4F646F;
+    border-radius: 25px;
+    transition-duration: 0.1s;
+}
+
+.song-name {
+    text-align: left;
+    vertical-align: top;
+    font-size: 120%;
+    font-weight: 600;
 }
