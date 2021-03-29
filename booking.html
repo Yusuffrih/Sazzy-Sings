@@ -70,37 +70,103 @@
                 <h2>Pricing</h2>
             </div>
             <div class="row justify-content-center">
-                <div class="col-xs-6">
-                    <p>Church Ceremony</p>
+                <div class="col-sm-6">
+                    <h4>Wedding Ceremony</h4>
+                    <div class="pricing">
+                        <i class="fas fa-church pricing-icons"></i>
+                        <p>€300</p>
+                    </div>
                 </div>
-                <div class="col-xs-6 pricing">
-                    <p>€300</p>
+                <div class="col-sm-6">
+                    <h4>Drinks Reception</h4>
+                    <div class="pricing">
+                        <i class="fas fa-glass-cheers pricing-icons"></i>
+                        <p>€400</p>
+                    </div>
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-xs-6">
-                    <p>Drinks Reception</p>
-                </div>
-                <div class="col-xs-6 pricing">
-                    <p>€400</p>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-xs-6">
-                    <p>Both</p>
-                </div>
-                <div class="col-xs-6 pricing">
-                    <p>€650</p>
+                <div class="col-12">
+                    <h4>Both</h4>
+                    <div class="pricing">
+                        <i class="fas fa-gift pricing-icons"></i>
+                        <p>€650</p>
+                    </div>
                 </div>
             </div>
         </div>
         <hr>
+         
+        <!-- Booking section -->
+
         <div class="container">
             <div class="row justify-content-center">
                 <h2>Make a Booking</h2>
             </div>
         </div>
-        
+
+        <!-- Bootstrap form -->
+
+        <form class="container">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="firstname">First Name</label>
+                    <input type="text" class="form-control" id="firstname">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" class="form-control" id="lastname">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="phonenumber">Phone</label>
+                    <input type="number" class="form-control" id="phonenumber">
+                </div>
+            </div>
+            <div class="form-row justify-content-center">
+                <div class="form-group col-md-6">
+                    <label for="weddingdate">Date of Wedding</label>
+                    <input type="date" class="form-control" id="weddingdate">
+                </div>
+            </div>
+            <fieldset class="form-group row justify-content-center">
+                <div class="col-sm-10">
+                    <div class="form-check-inline">
+                        <input class="form-check-input" type="radio" name="Options" id="weddingceremony" value="wedding-ceremony">
+                        <label class="form-check-label" for="weddingceremony">
+                        Wedding Ceremony
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <input class="form-check-input" type="radio" name="Options" id="drinksreception" value="drinks-reception">
+                        <label class="form-check-label" for="drinksreception">
+                        Drinks Reception
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <input class="form-check-input" type="radio" name="Options" id="both" value="both">
+                        <label class="form-check-label" for="gridRadios3">
+                        Both
+                        </label>
+                    </div>
+                </div>
+            </fieldset>
+            <div class="form-group">
+                <label for="about-you">About You</label>
+                <textarea class="form-control" id="about-you" rows="3" placeholder="Tell me about you and your partner"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="song-requests">Song Requests</label>
+                <textarea class="form-control" id="song-requests" rows="3" placeholder="Any specific song requests?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Get in Touch!</button>
+        </form>
+
         <footer>
             <div class="container">
                 <div class="row justify-content-center">
