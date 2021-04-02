@@ -136,6 +136,7 @@ h4 {
     color: #f4faff ;
     border-radius: 25px;
     padding-top: 4px;
+    margin-top: 15px;
 }
 
 .profile:hover {
@@ -145,8 +146,8 @@ h4 {
 }
 
 .profile img {
-    width: 160px;
-    height: 160px;
+    width: 175px;
+    height: 175px;
     border: 1px solid #f4faff;
     border-radius: 50%;
 }
