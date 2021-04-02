@@ -264,6 +264,15 @@ footer {
     margin: 0 auto;
 }
 
+.price {
+    font-size: 200%;
+    font-weight: 800;
+}
+
+#old-price {
+    text-decoration: line-through;
+}
+
 form {
     width: 500px;
 }

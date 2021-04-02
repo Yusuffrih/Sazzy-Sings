@@ -74,14 +74,14 @@
                     <h4>Wedding Ceremony</h4>
                     <div class="pricing">
                         <i class="fas fa-church pricing-icons"></i>
-                        <p>€300</p>
+                        <p class="price">€300</p>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <h4>Drinks Reception</h4>
                     <div class="pricing">
                         <i class="fas fa-glass-cheers pricing-icons"></i>
-                        <p>€400</p>
+                        <p class="price">€400</p>
                     </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@
                     <h4>Both</h4>
                     <div class="pricing">
                         <i class="fas fa-gift pricing-icons"></i>
-                        <p>€650</p>
+                        <p class="price"><span id="old-price">€700</span> €650</p>
                     </div>
                 </div>
             </div>
@@ -104,37 +104,37 @@
                 <h2>Make a Booking</h2>
             </div>
         </div>
-
+        
         <!-- Bootstrap form -->
 
         <form class="container">
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="firstname">First Name</label>
-                    <input type="text" class="form-control" id="firstname">
+                    <input type="text" class="form-control" id="firstname" name="first-name" placeholder="First Name" required>
                 </div>
                 <div class="form-group col-md-6">
                     <label for="lastname">Last Name</label>
-                    <input type="text" class="form-control" id="lastname">
+                    <input type="text" class="form-control" id="lastname" name="last-name" placeholder="Last Name" required>
                 </div>
             </div>
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email">
+                    <input type="email" class="form-control" id="email" name="email-address" placeholder="e.g. joebloggs@blogs.com" required>
                 </div>
                 <div class="form-group col-md-6">
                     <label for="phonenumber">Phone</label>
-                    <input type="number" class="form-control" id="phonenumber">
+                    <input type="tel" placeholder="086-xxxxxxx" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" class="form-control" id="phonenumber" name="phone-number" required>
                 </div>
             </div>
             <div class="form-row justify-content-center">
                 <div class="form-group col-md-6">
                     <label for="weddingdate">Date of Wedding</label>
-                    <input type="date" class="form-control" id="weddingdate">
+                    <input type="date" class="form-control" id="weddingdate" name="wedding-date" required>
                 </div>
             </div>
-            <fieldset class="form-group row justify-content-center">
+            <fieldset class="form-group row justify-content-center" required>
                 <div class="col-sm-10">
                     <div class="form-check-inline">
                         <input class="form-check-input" type="radio" name="Options" id="weddingceremony" value="wedding-ceremony">
@@ -158,15 +158,37 @@
             </fieldset>
             <div class="form-group">
                 <label for="about-you">About You</label>
-                <textarea class="form-control" id="about-you" rows="3" placeholder="Tell me about you and your partner"></textarea>
+                <textarea class="form-control" id="about-you" rows="3" placeholder="Tell me about you and your partner" required></textarea>
             </div>
             <div class="form-group">
                 <label for="song-requests">Song Requests</label>
                 <textarea class="form-control" id="song-requests" rows="3" placeholder="Any specific song requests?"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Get in Touch!</button>
+            <button type="submit" class="btn btn-primary" value="submit" data-toggle="modal" data-target="#thanks-modal">Get in Touch!</button>
         </form>
 
+        <!-- Bootstrap Modal -->
+
+        <div class="modal" id="thanks-modal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title">Thanks for getting in touch!</h3>
+                            <button type="button" class="close" data-dismiss="modal">
+                                <span>&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>I'll be in contact to confirm the booking details</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        
         <footer>
             <div class="container">
                 <div class="row justify-content-center">
