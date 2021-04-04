@@ -104,9 +104,11 @@ Icons used in this project were taken from [Font Awesome](https://fontawesome.co
 
 When deciding what the colour scheme of my website would be, I did some research as mentioned above. I visited websites that had a similar purpose/goal to this one, Wedding Singers websites e.g. [https://weddingsinger.ie](https://weddingsinger.ie/). As previously mentioned, weddings generally tend to be themed with bright colours. This drove the decision around what the colour scheme would be, while being cognisant to keep it simple and not distracting from the content. 
 
+
 **font colours:**
-* H1: I chose #535657, a navy colour which contrasted very well with the white marbled background image I chose to have throughout the website. 
-* H2:  
+* H1: I chose **#535657**, a navy colour which contrasted very well with the white marbled background image I chose to have throughout the website. 
+* H2: I chose **#4F646F**, also a dark navy colour, however, less dark and contrasting. 
+
 
 I visited Coolors to find a colour scheme which matched what I wanted for the site. 
 
