@@ -45,13 +45,13 @@
 
 ### User Stories
 
-As a perspective customer, I want: 
+As a perspective customer and site user, I want: 
 * To be able to view the site on a desktop computer / laptop / tablet and of course a mobile phone. 
-* To be able to easily hear the voice of the site owner so that I can be well informed when deciding on whether to avail of the service. 
-* To know what different services are on offer. 
+* To be able to quickly hear the voice of the site owner so that I can be well informed when deciding on whether to avail of the service. 
+* To know what services are on offer. 
 * To know what the cost of the service is.
 * To be able to see a list of songs that the site owner can sing at my wedding.
-* To hear from previous customer about their experiences.
+* To hear from previous customers about their experiences.
 * To be able to easily contact the site owner to make a booking.
 * To be able to make a special request for a song to be sung on my wedding day.
 * To know about the site owner as they will be taking part in my wedding day.
@@ -72,23 +72,41 @@ As a site owner, I want:
 
 ### User Requirements & Expectations
 
+#### Requirements
+* To be able to navigate the website using the navbar
+* To be able to hear the voice of the singer and to see her performing, giving the user a shop window view of the service on offer
+* To be able to make a booking through the site without any bugs issues
+* The overall text and imagery to display in a way that promotes readability and attractiveness. 
+ 
+#### Expectations
+* Navigation bar  
+To be able to read about previous customers' experiences
+* Information about the site owner is easily found and gives a good sense of their abilities
+* All of the design elements display in a seamless manner
+* Text and images are clearly readable and contrast against their background
+
+
+
+
 ### Design Decisions
 
-When designing the website, I carried out some market research to see what the general design choices for similar websites. As part of my research, I found that there was generally an attractive look to websites with a floral theme throughout which is keeping to the wedding theme.
+When designing the website, I carried out some market research to see what the general design choices for similar websites. I carried out [Google](https://www.google.com) searches to see if I could find websites which provided a similar service that I could take some inspiration from. As part of my research, I found that there was generally a bright, almost Spring time theme which was sleek and attractive throughout. This was in keeping with the wedding theme.
 
 #### Fonts 
 
-When deciding the fonts that I would use on this website, I searched through Google Fonts to see if there were any fonts that looked attractive and sleek and that would look good when styled. I decided have used Sans-Serif as a backup font in case Google Fonts does not work for any reason. 
+When deciding the fonts that I would use on this website, I searched through Google Fonts to see if there were any fonts that looked attractive and sleek and that would look good when styled. I chose the **Cormorant Garamond** font due to its nice, stylish look which I though suited the sites look and feel. I decided have used Sans-Serif as a backup font in case Google Fonts does not work for any reason. 
 
 #### Icons
 
-Icons used in this project were taken from Font Awesome. Icons were used to style the links to the social media pages and contact information in the footer.   
+Icons used in this project were taken from [Font Awesome](https://fontawesome.com/). Icons were used to style the links to the social media pages and contact information in the footer. Some icons were also used to help illustrate the pricing section on the booking page.   
 
 #### Colours
 
-When deciding what the colour scheme of my website would be, I did some research. I visited websites that had a similar purpose/goal to this one, Wedding Singers websites. As previously mentioned, weddings generally tend to be floral themed. This drove the decision around what the colour scheme would be, while being cognisant to keep it simple and not distracting from the content. 
+When deciding what the colour scheme of my website would be, I did some research as mentioned above. I visited websites that had a similar purpose/goal to this one, Wedding Singers websites e.g. [https://weddingsinger.ie](https://weddingsinger.ie/). As previously mentioned, weddings generally tend to be themed with bright colours. This drove the decision around what the colour scheme would be, while being cognisant to keep it simple and not distracting from the content. 
 
-For the font colours, I chose a crisp white #FFFFFF as it is extremely versatile and looks good. 
+**font colours:**
+* H1: I chose #535657, a navy colour which contrasted very well with the white marbled background image I chose to have throughout the website. 
+* H2:  
 
 I visited Coolors to find a colour scheme which matched what I wanted for the site. 
 

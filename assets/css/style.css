@@ -2,7 +2,7 @@
 
 body {
     font-family: "Cormorant Garamond", san-serif;
-    background-image: url('../images/home/augustine-wong-li0iC0rjvvg-unsplash.jpg');
+    background-image: url('../images/augustine-wong-li0iC0rjvvg-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,7 +25,7 @@ h1 {
 
 @media (max-width: 501px) {
     h1, h2 {
-        font-size: 175%;
+        font-size: 185%;
     }
 }
 
