@@ -40,7 +40,7 @@
 * To view the cost of the services provided
 * To be able to find the site owner’s social media pages
 * To view a list of songs available to be sung at the wedding
-* To view other projects that the site owner has worked on
+* To view other projects that the site owner has worked on such as the studio covers
 
 
 ### User Stories
@@ -104,23 +104,34 @@ Icons used in this project were taken from [Font Awesome](https://fontawesome.co
 
 When deciding what the colour scheme of my website would be, I did some research as mentioned above. I visited websites that had a similar purpose/goal to this one, Wedding Singers websites e.g. [https://weddingsinger.ie](https://weddingsinger.ie/). As previously mentioned, weddings generally tend to be themed with bright colours. This drove the decision around what the colour scheme would be, while being cognisant to keep it simple and not distracting from the content. 
 
+I visited [Coolors](https://coolors.co/) to find a colour scheme which matched what I envisaged for the site. I chose the font colors and the background colors off of this palette.  
+
+![color scheme](assets/images/color-scheme/colour-scheme.png)
 
 **font colours:**
-* H1: I chose **#535657**, a navy colour which contrasted very well with the white marbled background image I chose to have throughout the website. 
-* H2: I chose **#4F646F**, also a dark navy colour, however, less dark and contrasting. 
 
-
-I visited Coolors to find a colour scheme which matched what I wanted for the site. 
-
-
+* For the general font in the body of the website, I chose **#4F646F** as it contrasted against the light coloured background image
+* H1: I chose **#535657**, a navy colour which contrasted very well with the white marbled background image I chose to have throughout the website. This differed from the rest of the text so as to give it increased importance to the site user.
+* Navbar, Testimonial containers and buttons were given a **#4F646F** this was to keep in scheme with the font. All items inside these elements were given a colour of **#F4FAFF** to contrast and make it easily readable.
 
 #### Images
 
-The images used were original and were uploaded from my hardrive.
+*The below links lead to the relative images
+<br>
+* The [hero image](assets/images/SGM.jpg) used was original and was uploaded from my hardrive.
+* Testimonial [profile photos](assets/images/testimonials) and the [background image](assets/images/augustine-wong-li0iC0rjvvg-unsplash.jpg) of marbling that were used were obtained from [Unsplash](https://unsplash.com/).
 
 
 
 #### Wireframes
+
+* I used Balsamic to wireframe from the outset. There was some minor changes made using the software. Below are the final itterations of the wireframes I based the website off. 
+    * [Home page]()
+    * [Songs]()
+    * [About Me]()
+    * [Testimonials]()
+    * [Booking]()
+
 
 ## Features
 

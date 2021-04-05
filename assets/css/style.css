@@ -36,7 +36,7 @@ h2 {
 
 h2::after {
     content: '';
-    background: #212529;
+    background: #4F646F;
     display: block;
     height: 3px;
     width: 150px;
