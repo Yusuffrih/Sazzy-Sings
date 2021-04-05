@@ -48,9 +48,8 @@
 As a perspective customer and site user, I want: 
 * To be able to view the site on a desktop computer / laptop / tablet and of course a mobile phone. 
 * To be able to quickly hear the voice of the site owner so that I can be well informed when deciding on whether to avail of the service. 
-* To know what services are on offer. 
-* To know what the cost of the service is.
-* To be able to see a list of songs that the site owner can sing at my wedding.
+* To know what the details of the services that are on offer.
+* To be able to see a sample list of songs that the site owner can sing at my wedding.
 * To hear from previous customers about their experiences.
 * To be able to easily contact the site owner to make a booking.
 * To be able to make a special request for a song to be sung on my wedding day.
@@ -135,6 +134,8 @@ I visited [Coolors](https://coolors.co/) to find a colour scheme which matched w
 
 ## Features
 
+### Features Implemented
+
 * A beautiful and effictive navigation through a navbar across each of the pages on the site. 
 * A pretty, almost floral design that will remind the user of a wedding setting.
 * A booking form which allows the prospective customer to contact the site owner easily. 
@@ -146,30 +147,81 @@ I visited [Coolors](https://coolors.co/) to find a colour scheme which matched w
 * Responsive, mobile first layout that also looks great on tablets and desktops. This was done by using bootstrap's grid layout.
 * Bootstrap buttons used to make a booking once the form is filled in. Bootstrap buttons to bring the site user to the 'Songs' page from 'Home'. 
 * An 'About Me' page which gives the potential customers an insight into what kind of person the site owner is as well as the previous work she has done as a singer and what the main achievements are.  
-* 
+
+### Features Not Yet Implemented
+These features have not yet been implemented due to various reasons e.g. a lack of time
+
+*
+
 
 ## Technologies
 
 The following technologies were used throughout the creation of the website: 
 
-* HTML5 - 
-* CSS3 - 
-* Bootstrap - 
-* Font Awesome -  
-* Google Fonts - 
-* Balsamic - 
-* Git - 
-* GitHub - 
-* GitPod - 
-* JQuery - 
-* Popper - 
-* Chrome Developer Tools - 
-
+* [HTML 5](https://en.wikipedia.org/wiki/HTML) - 
+* [CSS3](https://en.wikipedia.org/wiki/CSS) - 
+* [Bootstrap 4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)  -  
+* [Google Fonts](https://fonts.google.com/) - 
+* [Font Awesome](https://fontawesome.com/) - 
+* [Balsamic](https://balsamiq.com/) - 
+* [Git](https://en.wikipedia.org/wiki/Git) - 
+* [GitHub](https://github.com/) - 
+* [GitPod](https://gitpod.io/) - 
+* [JQuery](https://en.wikipedia.org/wiki/JQuery) - 
+* [Popper](https://cdnjs.com/libraries/popper.js/2.5.3) - 
+* [W3 HTML Validator](https://validator.w3.org/) -  
+* [W3 CSS Validator](https://jigsaw.w3.org/css-validator/) -
+* [Microsoft Edge (Chromium) Developer Tools](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/) - Used this 
+* [Youtube Embedding](https://support.google.com/youtube/answer/171780?hl=en) - Used the Youtube embedding to copy code from Youtube to be able to display the videos on my site.
+* [Coolors](https://coolors.co/) - Used this to generate a colour scheme that matched what I wanted for the site.   
 
 ## Testing
 
+* Lighthouse - used to assess the level of accessibility, performance and correctness that was provided by the site. This generated a report based on how the page performed against these criteria. It was great to use as, based on the results of the test, I could see where the scores fell down which prompted me to try and improve on the website.  
+
+### User Story Testing
+
+1. To be able to view the site on a desktop / laptop / tablet or mobile.
+    * The website changes the way it is displayed in a seamless way. This makes it user friendly regardless of what size viewport the user is using.
+
+2. To be able to quickly hear the voice of the site owner so that I can be well informed when deciding on whether to avail of the service.
+    * The user need not go further than the landing page to be able to see and listen to the site owner singing. This gives the user a sense of the quality of the service immediately 
+
+3. To know what the details of the services that are on offer.
+    * The user can access the booking page from the navbar where they will see the packages and prices on offer 
+
+5. To be able to see a sample list of songs that the site owner can sing at my wedding.
+    * The user can see a 'Songs' page in the navbar. When they access this page, there is a list of sample songs that would typically be sung at weddings
+
+6. To hear from previous customers about their experiences.
+    *
+
+7. To be able to easily contact the site owner to make a booking.
+    *
+
+8. To be able to make a special request for a song to be sung on my wedding day.
+    *
+
+9. To know about the site owner as they will be taking part in my wedding day.
+    *
+
+
 ## Bugs
+
+
 
 ## Deployment
 
+### Deploying on GitHub Pages
+
+
+### Forking the GitHub Repository
+
+
+### Making A Clone
+
+
+
 ## Credits
+
+
