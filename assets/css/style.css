@@ -59,6 +59,8 @@ h4 {
 
 .navbar-light .navbar-brand {
     color: #f4faff;
+    font-size: 1.5rem;
+    font-weight: 900;
 }
 
 .navbar-light .navbar-nav .active>.nav-link {
@@ -70,6 +72,7 @@ h4 {
     color: #535657;
     border-color: #535657;
 }
+
 
 /* -------------------------------------------------------- Hero section */
 
@@ -254,7 +257,6 @@ footer {
     font-weight: 600;
 }
 
-
 /* --------------------------------------------------------------------Bookings Page */
 
 /* --------------------------------------------------------------------Pricing */
@@ -281,4 +283,23 @@ footer {
 
 form {
     width: 500px;
+}
+
+/* --------------------------------------------------------------------About Me Page */
+
+
+.experience {
+    background-color: #4F646F;
+    color: #f4faff;
+    border-radius: 25px;
+    padding-top: 4px;
+    margin-top: 15px;
+}
+
+#cv-list li {
+    list-style: none;
+}
+
+.cv-item {
+    text-decoration: underline;
 }
