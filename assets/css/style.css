@@ -2,7 +2,7 @@
 
 body {
     font-family: "Cormorant Garamond", san-serif;
-    background-image: url('../images/augustine-wong-li0iC0rjvvg-unsplash.jpg');
+    background-image: url('../images/general/augustine-wong-li0iC0rjvvg-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,7 +82,7 @@ h4 {
 }
 
 .hero {
-    background-image: url('../images/SGM.jpg');
+    background-image: url('../images/general/SGM.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
