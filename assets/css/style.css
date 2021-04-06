@@ -96,8 +96,44 @@ h4 {
 }
 
 
+/* -------------------------------------------------------- Testimonials */
 
-/* -------------------------------------------------------- See it for yourself! */
+.profile {
+    background-color: #4F646F;
+    color: #f4faff;
+    border-radius: 25px;
+    padding-top: 4px;
+    margin-top: 15px;
+    min-height: 450px;
+}
+
+.profile:hover {
+    background-color: #f4faff;
+    color: #535657;
+    border: 1px solid #4F646F;
+}
+
+.profile img {
+    width: 175px;
+    height: 175px;
+    border: 1px solid #f4faff;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+
+.profile blockquote {
+    font-size: 1.25rem;
+    padding-left: 4px;
+    margin-top: 25px;
+}
+
+blockquote i {
+    padding: 4px;
+}
+
+
+
+/* -------------------------------------------------------- Live Studio Covers */
 
 .iframe-container {
   position: relative;
@@ -132,46 +168,10 @@ h4 {
     border: 1px solid #4F646F;
 }
 
-/* -------------------------------------------------------- Testimonials */
-
-.profile {
-    background-color: #4F646F;
-    color: #f4faff ;
-    border-radius: 25px;
-    padding-top: 4px;
-    margin-top: 15px;
-    min-height: 450px;
-}
-
-.profile:hover {
-    background-color: #f4faff;
-    color: #535657;
-    border: 1px solid #4F646F;
-}
-
-.profile img {
-    width: 175px;
-    height: 175px;
-    border: 1px solid #f4faff;
-    border-radius: 50%;
-    margin-top: 25px;
-}
-
-.profile blockquote {
-    font-size: 1.25rem;
-    padding-left: 4px;
-    margin-top: 25px;
-}
-
-blockquote i {
-    padding: 4px;
-}
-
-
 
 /* --------------------------------------------------------------------Songs Page */
 
-/* -----------------------------------------------------------Listen section */
+/* -----------------------------------------------------------MP3 Files */
 
 .songs {
     text-align: left;
@@ -179,13 +179,6 @@ blockquote i {
     height: 80%;
     width: 100%;    
 }
-
-.songs li{
-    list-style: none;
-}
-
-
-/* -----------------------------------------------------------MP3 Files */
  
 .songs ul {
     padding-left: 0;
@@ -194,6 +187,7 @@ blockquote i {
 .songs li {
     margin-top: 15px;
     text-align: center;
+    list-style: none;
 }
 
 .audio-controls {
@@ -222,7 +216,6 @@ blockquote i {
     font-size: 200%;
 }
 
-
 .pricing {
     border-radius: 50%;
     margin: 0 auto;
@@ -237,9 +230,6 @@ blockquote i {
     text-decoration: line-through;
 }
 
-form {
-    width: 500px;
-}
 
 /* --------------------------------------------------------------------About Me Page */
 
