@@ -169,50 +169,6 @@ blockquote i {
 
 
 
-/* -------------------------------------------------------- Footer */
-
-footer {
-    background-color: #4F646F;
-    margin-top: 20px;
-}
-
-.social-media {
-    list-style: none;
-    font-size: 200%;
-    display: inline-block;
-    padding-left: 0;
-    margin-bottom: 0;
-}
-
-.social-media li {
-    display: inline-block;
-    padding: 5px;
-    margin: 2px;
-}
-
-.social-media li a {
-    color: #F4FAFF;
-}
-
-.contact {
-    list-style: none;
-    font-size: 200%;
-    display: inline-block;
-    padding-left: 0;
-    margin-bottom: 4px;
-}
-
-.contact li {
-    display: inline-block;
-    padding: 5px;
-    margin: 4px;
-}
-
-.contact li a {
-    color: #F4FAFF;
-}
-
-
 /* --------------------------------------------------------------------Songs Page */
 
 /* -----------------------------------------------------------Listen section */
@@ -302,4 +258,47 @@ form {
 
 .cv-item {
     text-decoration: underline;
+}
+
+/* -------------------------------------------------------- Footer */
+
+footer {
+    background-color: #4F646F;
+    margin-top: 20px;
+}
+
+.social-media {
+    list-style: none;
+    font-size: 200%;
+    display: inline-block;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.social-media li {
+    display: inline-block;
+    padding: 5px;
+    margin: 2px;
+}
+
+.social-media li a {
+    color: #F4FAFF;
+}
+
+.contact {
+    list-style: none;
+    font-size: 200%;
+    display: inline-block;
+    padding-left: 0;
+    margin-bottom: 4px;
+}
+
+.contact li {
+    display: inline-block;
+    padding: 5px;
+    margin: 4px;
+}
+
+.contact li a {
+    color: #F4FAFF;
 }
