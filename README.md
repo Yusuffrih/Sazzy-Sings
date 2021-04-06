@@ -125,7 +125,7 @@ I visited [Coolors](https://coolors.co/) to find a colour scheme which matched w
 #### Wireframes
 
 * I used Balsamic to wireframe from the outset. There was some minor changes made using the software. Below are the final itterations of the wireframes I based the website off. 
-    * [mobile](assets/images/wireframes/sgm-desktop_wireframes.pdf)
+    * [mobile](assets/wireframes/sgm-mobile_wireframes.pdf)
     * [Tablet](assets/wireframes/sgm-tablet_wireframes.pdf)
     * [Desktop](assets/wireframes/sgm-desktop_wireframes.pdf)
     
